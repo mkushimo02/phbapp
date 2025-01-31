@@ -8,9 +8,9 @@
 	<version>2.0.7-SNAPSHOT</version>
 
 
-	<name>maven-web-application</name>
+	<name>phb-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Phb Web Project for Java Project</description>
 
 	<organization>
 		<name>ACADA Learning</name>
