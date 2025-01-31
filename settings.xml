@@ -1,14 +1,14 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.1.0">
     <servers>
         <server>
-            <id>acada-snapshot</id>
+            <id>phbapp-snapshot</id>
             <username>admin</username>
-            <password>nexus</password>
+            <password>admin123</password>
         </server>
         <server>
-            <id>acada-release</id>
+            <id>phbapp-release</id>
             <username>admin</username>
-            <password>nexus</password>
+            <password>admin123</password>
         </server>
     </servers>
 </settings>
