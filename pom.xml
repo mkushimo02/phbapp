@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>phb-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>2.0.7-SNAPSHOT</version>
 
@@ -24,7 +24,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://sonarqube:9000</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>sonar</sonar.password>
+		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>acada-release</id>
 	      <name>ACADA Learning release Nexus Repository</name>
-	      <url>http://nexus:8081/repository/maven-release-acada/</url>
+	      <url>http://nexus:8081/repository/phbapp-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>acada-snapshot</id>
 	      <name>ACADA Learning snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/maven-snapshot-acada/</url>
+	      <url>http://nexus:8081/repository/phbapp-snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
