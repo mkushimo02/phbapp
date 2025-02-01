@@ -118,7 +118,7 @@ To run this pipeline, ensure the following are set up:
 2. **Maven**: Installed and configured on the Jenkins server.
 3. **GitHub Repository**: Accessible by Jenkins.
 4. **Tomcat Server**: Running and accessible with valid credentials stored in Jenkins.
-5. **SonarQube Server**: Configured for static code analysis.
+5. **SonarQube Server**: Configured for static code analysis..
 
 ---
 
