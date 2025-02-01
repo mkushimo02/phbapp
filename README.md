@@ -116,7 +116,8 @@ Below is a high-level diagram of the infrastructure:
                                      +-------------------------->+
                                                                SonarQube
 ```
-![image](https://github.com/user-attachments/assets/f9057bb6-e579-45fa-afa2-6ce07fcebbab)
+![Dev-Muisi-Page-6](https://github.com/user-attachments/assets/791db412-2c05-4829-ae5f-c6912e9f7d15)
+
 
 ---
 
