@@ -103,18 +103,7 @@ The pipeline assumes the following infrastructure setup:
 Below is a high-level diagram of the infrastructure:
 
 ```
-+-------------------+       +-------------------+       +-------------------+
-|                   |       |                   |       |                   |
-|   GitHub Repo     |       |   Jenkins Server  |       |   Tomcat Server   |
-|                   |       |                   |       |                   |
-+--------+----------+       +--------+----------+       +--------+----------+
-         |                           |                           |
-         | Clone Repo                | Deploy WAR                |
-         +-------------------------->+-------------------------->+
-                                     |
-                                     | Run Build & Test
-                                     +-------------------------->+
-                                                               SonarQube
+
 ```
 ![Dev-Muisi-Page-6](https://github.com/user-attachments/assets/791db412-2c05-4829-ae5f-c6912e9f7d15)
 
