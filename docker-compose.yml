@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: my-nginx-app:latest
+    image: nginx:stable-perl
     build:
       context: .
       dockerfile: Dockerfile
