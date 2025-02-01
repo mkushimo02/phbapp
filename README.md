@@ -13,7 +13,7 @@ The pipeline is defined in a `Jenkinsfile` and consists of the following stages:
 1. **Cloning Repository**: Clones the source code from the specified GitHub repository.
 2. **Building**: Compiles the source code and packages it into a WAR file using Maven.
 3. **Testing**: Runs static code analysis using SonarQube to ensure code quality.
-4. **Deploy to Web**: Deploys the packaged WAR file to a Tomcat server.
+4. **Deploy to Web**: Deploys the packaged WAR file to a Tomcat server..
 
 ### Pipeline Code
 
