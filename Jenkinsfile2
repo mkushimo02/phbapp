@@ -18,7 +18,7 @@ pipeline {
                 script {
                     sh """
                     docker-compose build
-                    docker tag phb-nginx-app:latest ${DOCKER_IMAGE}:${IMAGE_TAG}
+                    docker tag nginx:stable-perl ${DOCKER_IMAGE}:${IMAGE_TAG}
                     """
                 }
             }
